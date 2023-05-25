@@ -1,12 +1,5 @@
-type S = string;
-type N = number;
-let numbers: (S | N)[] = [1, '2', 3];
+type ABC = 'a' | 'b' | 'c'
 
-interface IObj {
-	[key: string]: number,
-}
-
-let obj: IObj = {
-	3: 2,
-	'd': 4,
+type ABCWithString = {
+	[K in ABC]: string
 }

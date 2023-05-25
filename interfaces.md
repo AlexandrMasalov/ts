@@ -1,6 +1,6 @@
 # Interfaces
 # Интерфейсы
-
+```
 interface IAnimal {
 	nickname,
 
@@ -11,8 +11,9 @@ class Bird implements IAnimal {
 	nickname: string,
 	execute(command: string): void {}
 }
+```
 
-
+```
 interface IA {}
 interface IB {}
 
@@ -26,3 +27,4 @@ class E extends C implements ID {}
 
 let a: IA = {}
 let a: IA = new C()
+```

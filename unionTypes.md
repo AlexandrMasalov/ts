@@ -1,6 +1,7 @@
 # Union
 # Объединение
 
+```
 let v1: T1 | T2 | T3;
 
 class A {
@@ -46,3 +47,4 @@ function move(animal: Bird | Fish | Insect): void {
 
   animal.toString(); // ок, задекларировано во всех типах
 }
+```
